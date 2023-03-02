@@ -1,4 +1,4 @@
-package BaiThucHanh.BaiThucHanh2302;
+package BaiThucHanh2302;
 import java.util.Scanner;
 public class Slide30 {
     static Scanner scanner = new Scanner(System.in);
