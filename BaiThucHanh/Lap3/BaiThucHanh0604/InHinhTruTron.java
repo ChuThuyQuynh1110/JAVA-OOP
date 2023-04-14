@@ -1,4 +1,4 @@
-package BaiThucHanh.Lap3;
+package BaiThucHanh0604;
 
 public class InHinhTruTron {
     public static void main(String[] args) {

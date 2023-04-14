@@ -1,4 +1,4 @@
-package BaiThucHanh.Lap3;
+package BaiThucHanh0604;
 
 import java.util.Scanner;
 
