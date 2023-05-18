@@ -1,4 +1,4 @@
-package shapes;
+package BaiThucHanh1404.shapes;
 
 public class HinhHoc {
     public final float PI = 3.14f;

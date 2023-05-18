@@ -1,5 +1,5 @@
-package BaiThucHanh.Lap3.BaiThucHanh2004.main;
-import BaiThucHanh.Lap3.BaiThucHanh2004.shapes.*;
+package BaiThucHanh2004.main;
+import BaiThucHanh2004.shapes.*;
 public class MainClass {
     public static void main(String[] args) {
         HinhTron ht = new HinhTron();

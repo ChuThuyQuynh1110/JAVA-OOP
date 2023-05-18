@@ -1,5 +1,5 @@
-package main;
-import shapes.*;
+package BaiThucHanh1404.main;
+import BaiThucHanh1404.shapes.*;
 public class MainClass {
     public static void main(String[] args) {
         // thử nghiệm với lớp hình tròn

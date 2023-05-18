@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "Lap4/BaiThucHanh2704",
+        "Lap4/BaiThucHanh0405/Lists",
+        "Lap3",
+        "Lap2",
+        "Lap4/BaiThucHanh0405/Sets"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

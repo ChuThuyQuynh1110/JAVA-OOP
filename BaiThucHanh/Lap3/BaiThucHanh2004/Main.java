@@ -1,4 +1,4 @@
-package BaiThucHanh.Lap3.BaiThucHanh2004;
+package BaiThucHanh2004;
 
 public class Main {
     public static void main(String[] args) throws Exception {   

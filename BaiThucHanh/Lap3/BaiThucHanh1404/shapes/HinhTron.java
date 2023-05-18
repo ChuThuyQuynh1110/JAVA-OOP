@@ -1,4 +1,4 @@
-package shapes;
+package BaiThucHanh1404.shapes;
 import java.util.Scanner;
 public class HinhTron extends HinhHoc {
     public float banKinh;

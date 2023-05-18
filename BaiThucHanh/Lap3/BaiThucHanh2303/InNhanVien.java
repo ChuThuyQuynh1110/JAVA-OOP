@@ -1,4 +1,4 @@
-package BaiThucHanh0604;
+package BaiThucHanh2303;
 
 public class InNhanVien {
     public static void main(String[] args) {
