@@ -1,42 +1,15 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class bai3 {
     public static void main(String[] args) {
-        LinkedList<SINHVIEN> list =  new LinkedList<>();
-    Boolean check = true;
-
-    do {
-        check = true;
-        SINHVIEN a = new SINHVIEN();
-        a.NhapThongTin();
-        if(a.getName()== ""){
-            check = false;
-        }
-    }while(check);
-    int count = 0;
-    for( int i = 0 ; i < list.size();i++){
-        if(list.get(i).getDiem() <= 5){
-            list.get(i).inThongTin();
-            count++;
-        }
+        ArrayList<SINHVIEN> arrList = new ArrayList<>();
+        SINHVIEN std = new SINHVIEN(null, 0);
+        Scanner sc = new Scanner(System.in);;
+        std.Insert(arrList);
+        std.inThongTin(arrList);
+        std.SinhVienThiLai(arrList);
+        std.DiemCaoNhat(arrList);
+        std.SearchByName(arrList);
     }
-    System.out.printf("Co %d Sinh vien phai thi lai",count);
-    float Maxpoint = 0;
-
-    for( int i = 0 ; i < list.size();i++){
-        if(list.get(i).getDiem() > Maxpoint){
-            Maxpoint = list.get(i).getDiem();
-        }
-    }
-    for( int i = 0 ; i < list.size();i++){
-        if(list.get(i).getDiem() == Maxpoint){
-            list.get(i).inThongTin();
-        }
-    }
-
-    System.out.println("Nhap Ten SInh Vien Can Tim Kiem:");
-    Scanner sc = new Scanner( System.in);
-    String tempString = sc.nextLine();
-    for( int i = 0 ; i < list.size();i++){
-        list.get(i).SearchByName(tempString);
-    }
-
 }

@@ -1,5 +1,4 @@
 package BaiThucHanh.Lap4.BaiThucHanh0405;
-
 import java.util.Scanner;
 
 public class Student {
