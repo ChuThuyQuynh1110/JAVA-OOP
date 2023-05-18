@@ -27,5 +27,4 @@ public class Slide22 {
         }
         System.out.println("phan tu lon nhat trong arrList = " + max);
     }
-    
 }
