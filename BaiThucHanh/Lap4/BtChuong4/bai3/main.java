@@ -1,7 +1,9 @@
+package bai3;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bai3 {
+public class main {
     public static void main(String[] args) {
         ArrayList<SINHVIEN> arrList = new ArrayList<>();
         SINHVIEN std = new SINHVIEN(null, 0);
