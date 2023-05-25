@@ -1,6 +1,8 @@
-package demo.Map.HashMap;
+
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class EntryHashMap {
     public static void main(String[] args) {

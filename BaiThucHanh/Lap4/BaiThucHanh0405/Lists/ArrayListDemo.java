@@ -1,18 +1,18 @@
-package BaiThucHanh.Lap4.BaiThucHanh0405.Lists;
+
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 
 public class ArrayListDemo{
     public static void main(String[] args) {
-        ArrayList<Student> arrList = new ArrayList<>();
+        List<Student> arrList = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap phan tu: ");
+        System.out.print("Nhap so phan tu: ");
         int n = sc.nextInt();
-        Student.Insert(arrList, 0);
+        Student.Insert(arrList);
         Student.Display(arrList);
     }
-
 }
         
         
